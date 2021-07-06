@@ -1,0 +1,27 @@
+{
+    "name": "orzicelib",
+    "description": "Orzice经常使用的PHP库",
+    "keywords":["orzice","orzicelib"],
+    "homepage": "https://www.orzice.com/forum/159",
+    "require": {
+        "php": ">=7.1.0",
+        "aliyuncs/oss-sdk-php": "^2.4",
+        "qcloud/cos-sdk-v5": "^2.1",
+        "qiniu/php-sdk": "^7.3",
+        "alibabacloud/client": "^1.5",
+        "tencentcloud/tencentcloud-sdk-php": "^3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Orzice",
+            "email": "1073519986@qq.com"
+        }       
+    ],
+}
