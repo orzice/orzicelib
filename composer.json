@@ -1,8 +1,8 @@
 {
-    "name": "Orzice/Lib",
-    "description": "Orzice经常使用的PHP库",
+    "name": "orzice/lib",
+    "description": "Orzice经常使用的PHP函数和功能库",
     "keywords":["orzice","orzicelib"],
-    "homepage": "https://www.orzice.com/forum/159",
+    "homepage": "https://github.com/orzice/orzicelib",
     "require": {
         "php": ">=7.1.0",
         "aliyuncs/oss-sdk-php": "^2.4",
