@@ -15,7 +15,7 @@
 // | DateTime：2021-01-26 16:03:08
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload;
+namespace Orzice\Lib\upload;
 
 
 use think\facade\Filesystem;
@@ -24,7 +24,7 @@ use think\File;
 /**
  * 基类
  * Class Base
- * @package OrziceLib\upload
+ * @package Orzice\Lib\upload
  */
 class FileBase
 {

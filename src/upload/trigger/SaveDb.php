@@ -11,7 +11,7 @@
 // | DateTime: 2021-07-06 14:44:26
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload\trigger;
+namespace Orzice\Lib\upload\trigger;
 
 
 use think\facade\Db;
@@ -19,7 +19,7 @@ use think\facade\Db;
 /**
  * 保存到数据库
  * Class SaveDb
- * @package OrziceLib\upload\trigger
+ * @package Orzice\Lib\upload\trigger
  */
 class SaveDb
 {

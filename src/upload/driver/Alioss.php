@@ -11,16 +11,16 @@
 // | DateTime: 2021-07-06 14:43:42
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload\driver;
+namespace Orzice\Lib\upload\driver;
 
-use OrziceLib\upload\FileBase;
-use OrziceLib\upload\driver\alioss\Oss;
-use OrziceLib\upload\trigger\SaveDb;
+use Orzice\Lib\upload\FileBase;
+use Orzice\Lib\upload\driver\alioss\Oss;
+use Orzice\Lib\upload\trigger\SaveDb;
 
 /**
  * 阿里云上传
  * Class Alioss
- * @package OrziceLib\upload\driver
+ * @package Orzice\Lib\upload\driver
  */
 class Alioss extends FileBase
 {

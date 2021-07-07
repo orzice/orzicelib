@@ -11,7 +11,7 @@
 // | DateTime: 2021-07-06 14:39:58
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\request;
+namespace Orzice\Lib\request;
 
 /**
  * Response

@@ -11,16 +11,16 @@
 // | DateTime: 2021-07-06 14:43:42
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload\driver;
+namespace Orzice\Lib\upload\driver;
 
-use OrziceLib\upload\FileBase;
-use OrziceLib\upload\driver\txcos\Cos;
-use OrziceLib\upload\trigger\SaveDb;
+use Orzice\Lib\upload\FileBase;
+use Orzice\Lib\upload\driver\txcos\Cos;
+use Orzice\Lib\upload\trigger\SaveDb;
 
 /**
  * 腾讯云上传
  * Class Txcos
- * @package OrziceLib\upload\driver
+ * @package Orzice\Lib\upload\driver
  */
 class Txcos extends FileBase
 {

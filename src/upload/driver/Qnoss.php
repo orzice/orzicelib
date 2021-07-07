@@ -11,16 +11,16 @@
 // | DateTime: 2021-07-06 14:43:42
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload\driver;
+namespace Orzice\Lib\upload\driver;
 
-use OrziceLib\upload\FileBase;
-use OrziceLib\upload\driver\qnoss\Oss;
-use OrziceLib\upload\trigger\SaveDb;
+use Orzice\Lib\upload\FileBase;
+use Orzice\Lib\upload\driver\qnoss\Oss;
+use Orzice\Lib\upload\trigger\SaveDb;
 
 /**
  * 七牛云上传
  * Class Qnoss
- * @package OrziceLib\upload\driver
+ * @package Orzice\Lib\upload\driver
  */
 class Qnoss extends FileBase
 {

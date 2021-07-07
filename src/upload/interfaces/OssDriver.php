@@ -11,7 +11,7 @@
 // | DateTime: 2021-07-06 14:43:42
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload\interfaces;
+namespace Orzice\Lib\upload\interfaces;
 
 interface OssDriver
 {

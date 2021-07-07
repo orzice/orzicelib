@@ -14,18 +14,18 @@
 // +----------------------------------------------------------------------
 // | DateTime：2021-01-26 16:03:15
 // +----------------------------------------------------------------------
-namespace OrziceLib\upload;
+namespace Orzice\Lib\upload;
 
-use OrziceLib\upload\driver\Alioss;
-use OrziceLib\upload\driver\Local;
-use OrziceLib\upload\driver\Qnoss;
-use OrziceLib\upload\driver\Txcos;
+use Orzice\Lib\upload\driver\Alioss;
+use Orzice\Lib\upload\driver\Local;
+use Orzice\Lib\upload\driver\Qnoss;
+use Orzice\Lib\upload\driver\Txcos;
 
 
 /**
  * 上传组件
  * Class Uploadfile
- * @package OrziceLib\upload
+ * @package Orzice\Lib\upload
  */
 class Uploadfile
 {

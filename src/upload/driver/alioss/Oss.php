@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 // | DateTime: 2021-07-06 14:42:39
 // +----------------------------------------------------------------------
-namespace OrziceLib\upload\driver\alioss;
+namespace Orzice\Lib\upload\driver\alioss;
 
-use OrziceLib\upload\interfaces\OssDriver;
+use Orzice\Lib\upload\interfaces\OssDriver;
 use OSS\Core\OssException;
 use OSS\OssClient;
 

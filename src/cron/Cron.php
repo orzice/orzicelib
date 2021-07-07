@@ -14,7 +14,7 @@
  * Cron - Job scheduling for Laravel [Orzice优化版，适用于TP6]
  */
 
-namespace OrziceLib\cron;
+namespace Orzice\Lib\cron;
 
 use think\facade\Event;
 use think\facade\Cache;

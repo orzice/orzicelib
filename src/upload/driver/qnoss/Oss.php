@@ -11,10 +11,10 @@
 // | DateTime: 2021-07-06 14:42:52
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\upload\driver\qnoss;
+namespace Orzice\Lib\upload\driver\qnoss;
 
 
-use OrziceLib\upload\interfaces\OssDriver;
+use Orzice\Lib\upload\interfaces\OssDriver;
 use Qiniu\Auth;
 use Qiniu\Storage\UploadManager;
 

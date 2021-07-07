@@ -11,7 +11,7 @@
 // | DateTime: 2021-07-06 14:40:14
 // +----------------------------------------------------------------------
 
-namespace OrziceLib\wechat;
+namespace Orzice\Lib\wechat;
 
 /**
  * Wechat
