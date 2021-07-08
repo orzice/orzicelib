@@ -4,8 +4,10 @@
 Orzice经常使用的PHP库和功能组件，部分是自己造的轮子
 </p>
 
-
-
+## 安装
+```
+composer require orzice/orzicelib
+```
 
 ## 代码仓库
 
@@ -19,14 +21,16 @@ Orzice经常使用的PHP库和功能组件，部分是自己造的轮子
 
 * 配置
 ```
-引用方式
-use Orzice\Lib\thinkphp\cron\Cron;
+use Orzice\Lib\thinkphp\;
 ```
 
 
 ### Cron - 计划任务
 
 * 配置
+```
+use Orzice\Lib\thinkphp\cron\Cron;
+```
 
 ```
 config/console.php
@@ -125,6 +129,10 @@ Event::listen('cron.collectJobs', function () {
 
 ### Upload - 上传文件（本地 / 阿里云 /  七牛云 / 腾讯云）
 
+* 配置
+```
+use Orzice\Lib\thinkphp\upload\Uploadfile;
+```
 * 配置 需要数据库表
 
 ```
